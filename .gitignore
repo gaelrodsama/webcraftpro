@@ -1,0 +1,32 @@
+# Brand profiles (datos de clientes)
+memory/brand-profiles/*
+!memory/brand-profiles/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Entorno virtual
+.venv/
+venv/
+
+# Config local de Claude
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Directorios de trabajo temporal
+workspace/*
+
+# Proyectos publicados (cada uno es su propio repo git)
+output/*

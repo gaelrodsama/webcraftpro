@@ -1,0 +1,5 @@
+- [memory-system.md](memory-system.md) — Cómo gestiona la memoria el agente
+- [design-decisions.md](design-decisions.md) — Log cronológico de decisiones de diseño
+- [brand-profiles/vifany-inmobiliaria.md](brand-profiles/vifany-inmobiliaria.md) — Brand Profile: VIFANY Tu Inmobiliaria
+- [spa-navigation-pattern.md](spa-navigation-pattern.md) — Patrón SPA para HTML single-file multi-sección
+- [data-scraping-js-sites.md](data-scraping-js-sites.md) — Técnica extraer datos reales de sitios JS-heavy

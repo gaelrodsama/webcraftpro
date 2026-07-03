@@ -1,0 +1,9 @@
+# WebCraft Pro — Python dependencies
+
+# SEO & Design Analysis
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Premium Website Generator
+requests>=2.31
+Pillow>=10.0

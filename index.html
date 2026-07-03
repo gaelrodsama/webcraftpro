@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <!-- ===== SEO TITLE & DESCRIPTION ===== -->
+  <title>Soberanes Bienes Raíces | Agente Inmobiliaria Certificada en Mexicali</title>
+  <meta name="description" content="¿Vender o rentar tu propiedad en Mexicali? Miriam Soberanes, agente certificada con licencia MXL20210008. Asesoría profesional, marketing inmobiliario y cierre seguro. ¡Agenda tu cita gratis!">
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:title" content="Soberanes Bienes Raíces | Agente Inmobiliaria en Mexicali">
+  <meta property="og:description" content="¿Vender o rentar tu propiedad en Mexicali? Miriam Soberanes, agente certificada. Asesoría profesional y cierre seguro. ¡Agenda tu cita gratis!">
+  <meta property="og:image" content="https://soberanesbienesraices.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://soberanesbienesraices.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Soberanes Bienes Raíces">
+
+  <!-- ===== TWITTER CARDS ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Soberanes Bienes Raíces | Agente Inmobiliaria en Mexicali">
+  <meta name="twitter:description" content="¿Vender o rentar tu propiedad en Mexicali? Miriam Soberanes, agente certificada. Asesoría profesional y cierre seguro.">
+  <meta name="twitter:image" content="https://soberanesbienesraices.com/og-image.jpg">
+
+  <!-- ===== CANONICAL & FAVICON ===== -->
+  <link rel="canonical" href="https://soberanesbienesraices.com">
+  <link rel="icon" type="image/png" href="./logo.png">
+  <link rel="apple-touch-icon" href="./logo.png">
+
+  <!-- ===== GOOGLE FONTS ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- ===== STYLESHEET ===== -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- ===== SCHEMA.ORG JSON-LD ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://soberanesbienesraices.com",
+    "name": "Soberanes Bienes Raíces",
+    "description": "Agente inmobiliaria certificada en Mexicali, Baja California. Venta, renta y asesoría de propiedades con respaldo legal profesional.",
+    "url": "https://soberanesbienesraices.com",
+    "telephone": "+526869465458",
+    "email": "contacto@soberanesbienesraices.com",
+    "image": "https://soberanesbienesraices.com/og-image.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mexicali",
+      "addressRegion": "Baja California",
+      "addressCountry": "MX"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Mexicali"
+    },
+    "foundingDate": "2023",
+    "knowsAbout": ["Venta de propiedades", "Renta de propiedades", "Asesoría inmobiliaria", "Valuación de propiedades"],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Licencia Inmobiliaria",
+        "name": "MXL20210008"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Contrato Profeco",
+        "name": "2860-2023"
+      }
+    ],
+    "sameAs": [
+      "https://wa.me/526869465458"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+526869465458",
+      "contactType": "customer service",
+      "availableLanguage": ["Spanish"]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== SKIP TO CONTENT ===== -->
+  <a class="skip-link" href="#hero">Saltar al contenido principal</a>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 1: NAVBAR -->
+  <!-- ================================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="navbar__container">
+      <a href="#hero" class="navbar__logo" aria-label="Soberanes Bienes Raíces - Inicio">
+        <span class="navbar__logo-wrapper">
+          <img src="./logo.png" alt="Soberanes Bienes Raíces" width="120" height="45">
+        </span>
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+
+      <nav class="navbar__menu" id="navMenu" role="navigation" aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="#hero" class="navbar__link" onclick="closeNav()">Inicio</a></li>
+          <li><a href="#servicios" class="navbar__link" onclick="closeNav()">Servicios</a></li>
+          <li><a href="#sobre-mi" class="navbar__link" onclick="closeNav()">Sobre mí</a></li>
+          <li><a href="#propiedades" class="navbar__link" onclick="closeNav()">Propiedades</a></li>
+          <li><a href="#contacto" class="navbar__link" onclick="closeNav()">Contacto</a></li>
+        </ul>
+        <a href="https://wa.me/526869465458?text=Hola%20Miriam%2C%20quiero%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" class="navbar__cta btn btn--accent">Agenda tu cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 2: HERO -->
+  <!-- ================================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__container">
+      <div class="hero__content">
+        <span class="hero__badge" data-reveal="fade-up">Agente Certificada en Baja California</span>
+        <h1 class="hero__title" data-reveal="fade-up" data-delay="100">¿Buscas Comprar, Rentar o Vender una Propiedad en Mexicali?</h1>
+        <p class="hero__subtitle" data-reveal="fade-up" data-delay="200">Me encargo de todo el proceso, de principio a fin. Con licencia, experiencia y compromiso real.</p>
+        <p class="hero__subtitle hero__subtitle--secondary" data-reveal="fade-up" data-delay="250">Ya sea que busques tu hogar ideal o quieras vender al mejor precio, te acompaño en todo el proceso.</p>
+        <div class="hero__actions" data-reveal="fade-up" data-delay="300">
+          <a href="https://wa.me/526869465458?text=Hola%20Miriam%2C%20quiero%20agendar%20una%20cita%20gratis" target="_blank" rel="noopener noreferrer" class="btn btn--accent btn--large">Agenda tu Cita Gratis</a>
+          <a href="#servicios" class="btn btn--outline btn--large">Ver mis Servicios</a>
+        </div>
+      </div>
+      <div class="hero__visual" data-reveal="fade-up" data-delay="400">
+        <div class="hero__illustration">
+          <svg class="hero__illustration-svg" width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- Círculo decorativo exterior dorado -->
+            <circle cx="170" cy="170" r="164" stroke="#C9A035" stroke-width="2" opacity="0.3"/>
+            <circle cx="170" cy="170" r="150" stroke="#C9A035" stroke-width="1" opacity="0.15"/>
+
+            <!-- Casa principal -->
+            <rect x="115" y="205" width="110" height="85" rx="2" fill="#1B3A6B" opacity="0.9"/>
+
+            <!-- Techo -->
+            <polygon points="100,208 170,145 240,208" fill="#1B3A6B" stroke="#C9A035" stroke-width="2.5" stroke-linejoin="round"/>
+
+            <!-- Puerta -->
+            <rect x="148" y="240" width="44" height="50" rx="3" fill="#C9A035" opacity="0.85"/>
+            <circle cx="184" cy="265" r="3" fill="#1B3A6B"/>
+
+            <!-- Ventanas -->
+            <rect x="122" y="220" width="20" height="24" rx="2" fill="#C9A035" opacity="0.6"/>
+            <rect x="238" y="220" width="20" height="24" rx="2" fill="#C9A035" opacity="0.6"/>
+
+            <!-- Ventana pequeña arriba -->
+            <rect x="163" y="170" width="14" height="16" rx="2" fill="#C9A035" opacity="0.4"/>
+
+            <!-- Chimenea -->
+            <rect x="195" y="148" width="14" height="30" rx="2" fill="#1B3A6B" opacity="0.7"/>
+            <rect x="191" y="145" width="22" height="6" rx="2" fill="#C9A035" opacity="0.5"/>
+
+            <!-- Línea de suelo -->
+            <line x1="85" y1="290" x2="255" y2="290" stroke="#C9A035" stroke-width="2" opacity="0.5"/>
+
+            <!-- Árbol decorativo izquierdo -->
+            <line x1="72" y1="290" x2="72" y2="250" stroke="#1B3A6B" stroke-width="2.5" opacity="0.5"/>
+            <circle cx="72" cy="242" r="16" fill="#1B3A6B" opacity="0.3"/>
+            <circle cx="72" cy="238" r="12" fill="#1B3A6B" opacity="0.2"/>
+
+            <!-- Árbol decorativo derecho -->
+            <line x1="268" y1="290" x2="268" y2="260" stroke="#1B3A6B" stroke-width="2.5" opacity="0.5"/>
+            <circle cx="268" cy="252" r="14" fill="#1B3A6B" opacity="0.3"/>
+            <circle cx="268" cy="248" r="10" fill="#1B3A6B" opacity="0.2"/>
+
+            <!-- Estrellas / puntos decorativos -->
+            <circle cx="120" cy="130" r="2" fill="#C9A035" opacity="0.4"/>
+            <circle cx="220" cy="120" r="2" fill="#C9A035" opacity="0.4"/>
+            <circle cx="260" cy="145" r="1.5" fill="#C9A035" opacity="0.3"/>
+            <circle cx="90" cy="155" r="1.5" fill="#C9A035" opacity="0.3"/>
+            <circle cx="145" cy="115" r="1.5" fill="#C9A035" opacity="0.25"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GOLD BANNER: PROPIEDADES DISPONIBLES ===== -->
+  <section class="property-banner">
+    <a href="#propiedades" class="property-banner__link">
+      <span class="property-banner__text">Ver Propiedades Disponibles</span>
+      <svg class="property-banner__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 3: TRUST BAR -->
+  <!-- ================================================================ -->
+  <section class="trust-bar" id="confianza">
+    <div class="trust-bar__container">
+      <div class="trust-bar__item" data-reveal="fade-up">
+        <!-- SVG: License badge -->
+        <svg class="trust-bar__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        <span class="trust-bar__text">Licencia Inmobiliaria MXL20210008</span>
+      </div>
+      <div class="trust-bar__item" data-reveal="fade-up" data-delay="100">
+        <!-- SVG: Document / contract -->
+        <svg class="trust-bar__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        <span class="trust-bar__text">Contrato Profeco No. 2860-2023</span>
+      </div>
+      <div class="trust-bar__item" data-reveal="fade-up" data-delay="200">
+        <!-- SVG: Shield / check -->
+        <svg class="trust-bar__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          <polyline points="9 12 11 14 15 10"></polyline>
+        </svg>
+        <span class="trust-bar__text">Asociada AMAI Mexicali AC</span>
+      </div>
+      <div class="trust-bar__item" data-reveal="fade-up" data-delay="300">
+        <!-- SVG: Building -->
+        <svg class="trust-bar__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+          <path d="M9 22v-4h6v4"></path>
+          <line x1="8" y1="10" x2="10" y2="10"></line>
+          <line x1="14" y1="10" x2="16" y2="10"></line>
+          <line x1="8" y1="14" x2="10" y2="14"></line>
+          <line x1="14" y1="14" x2="16" y2="14"></line>
+        </svg>
+        <span class="trust-bar__text">Socio Canaco</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 4: SERVICIOS -->
+  <!-- ================================================================ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <h2 class="section-header__title">¿En qué puedo ayudarte?</h2>
+        <p class="section-header__subtitle">Soluciones inmobiliarias profesionales con respaldo legal y experiencia comprobada.</p>
+      </div>
+      <div class="services__grid services__grid--four">
+        <!-- Card 1: Compra -->
+        <article class="service-card" data-reveal="fade-up" data-delay="100">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Compra de Propiedades</h3>
+          <p class="service-card__text">Encuentra la propiedad ideal dentro de tu presupuesto y en la zona que prefieres.</p>
+        </article>
+        <!-- Card 2: Venta -->
+        <article class="service-card" data-reveal="fade-up" data-delay="200">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Venta de Propiedades</h3>
+          <p class="service-card__text">Encuentra al comprador ideal al mejor precio y en el menor tiempo posible.</p>
+        </article>
+        <!-- Card 3: Renta -->
+        <article class="service-card" data-reveal="fade-up" data-delay="300">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Renta de Propiedades</h3>
+          <p class="service-card__text">Consigue inquilinos confiables con contratos seguros y respaldados legalmente.</p>
+        </article>
+        <!-- Card 4: Asesoría -->
+        <article class="service-card" data-reveal="fade-up" data-delay="400">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Asesoría Inmobiliaria</h3>
+          <p class="service-card__text">Te guío en cada paso del proceso legal, comercial y de valuación de tu propiedad.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 5: POR QUÉ ELEGIRME -->
+  <!-- ================================================================ -->
+  <section class="why-me" id="sobre-mi">
+    <div class="container">
+      <div class="why-me__layout">
+        <div class="why-me__content" data-reveal="fade-up">
+          <h2 class="section-header__title why-me__title">Vender sin asesor es como construir sin planos</h2>
+          <p class="why-me__subtitle">Quizá funcione, pero con varios riesgos.</p>
+          <ul class="why-me__list">
+            <li class="why-me__item">
+              <!-- SVG: Key icon gold -->
+              <svg class="why-me__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+              </svg>
+              <span><strong>Valoración profesional</strong> de tu propiedad</span>
+            </li>
+            <li class="why-me__item">
+              <svg class="why-me__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+              </svg>
+              <span><strong>Asesoría experta</strong> en todo el proceso</span>
+            </li>
+            <li class="why-me__item">
+              <svg class="why-me__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+              </svg>
+              <span><strong>Marketing inmobiliario</strong> efectivo</span>
+            </li>
+            <li class="why-me__item">
+              <svg class="why-me__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+              </svg>
+              <span><strong>Negociación</strong> con visión y estrategia</span>
+            </li>
+          </ul>
+        </div>
+        <div class="why-me__visual" data-reveal="fade-up" data-delay="200">
+          <div class="stats-card">
+            <div class="stats-card__header">
+              <span class="stats-card__label">Soberanes Bienes Raíces</span>
+              <h3 class="stats-card__title">Impacto en Mexicali</h3>
+            </div>
+            <div class="stats-card__grid">
+              <div class="stats-card__item">
+                <span class="stats-card__number">150+</span>
+                <span class="stats-card__desc">Propiedades gestionadas</span>
+              </div>
+              <div class="stats-card__item">
+                <span class="stats-card__number">8+</span>
+                <span class="stats-card__desc">Años de experiencia</span>
+              </div>
+              <div class="stats-card__item">
+                <span class="stats-card__number">98%</span>
+                <span class="stats-card__desc">Clientes satisfechos</span>
+              </div>
+              <div class="stats-card__item">
+                <span class="stats-card__number">50+</span>
+                <span class="stats-card__desc">Asesorías activas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 6: PROCESO -->
+  <!-- ================================================================ -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <h2 class="section-header__title">Así de simple es trabajar conmigo</h2>
+        <p class="section-header__subtitle">Un proceso claro, transparente y sin sorpresas.</p>
+      </div>
+      <div class="process__steps">
+        <div class="process__step" data-reveal="fade-up" data-delay="100">
+          <div class="process__number" aria-hidden="true">01</div>
+          <div class="process__line"></div>
+          <div class="process__content">
+            <h3 class="process__title">Contacto inicial y valuación gratuita</h3>
+            <p class="process__text">Agendamos una cita sin compromiso para conocer tu propiedad y sus necesidades.</p>
+          </div>
+        </div>
+        <div class="process__step" data-reveal="fade-up" data-delay="200">
+          <div class="process__number" aria-hidden="true">02</div>
+          <div class="process__line"></div>
+          <div class="process__content">
+            <h3 class="process__title">Estrategia personalizada de venta o renta</h3>
+            <p class="process__text">Diseño un plan a la medida con precios, tiempos y canales de difusión óptimos.</p>
+          </div>
+        </div>
+        <div class="process__step" data-reveal="fade-up" data-delay="300">
+          <div class="process__number" aria-hidden="true">03</div>
+          <div class="process__line"></div>
+          <div class="process__content">
+            <h3 class="process__title">Marketing y difusión de tu propiedad</h3>
+            <p class="process__text">Publico y promociono tu propiedad en los canales más efectivos de Mexicali.</p>
+          </div>
+        </div>
+        <div class="process__step" data-reveal="fade-up" data-delay="400">
+          <div class="process__number" aria-hidden="true">04</div>
+          <div class="process__line process__line--last"></div>
+          <div class="process__content">
+            <h3 class="process__title">Cierre exitoso y seguro</h3>
+            <p class="process__text">Te acompaño hasta la firma con toda la documentación en regla y total tranquilidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 7: PROPIEDADES DESTACADAS -->
+  <!-- ================================================================ -->
+  <section class="properties" id="propiedades">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <h2 class="section-header__title">Propiedades Disponibles</h2>
+        <p class="section-header__subtitle">Encuentra tu hogar ideal en Mexicali</p>
+      </div>
+      <div class="properties__grid">
+        <!-- Propiedad 1: Renta -->
+        <article class="property-card" data-reveal="fade-up" data-delay="100">
+          <div class="property-card__image">
+            <img src="./imagencasa1renta.png" alt="Casa en renta en Mexicali - Fachada principal" width="400" height="220" loading="lazy">
+            <span class="property-card__badge badge--renta">En Renta</span>
+          </div>
+          <div class="property-card__body">
+            <h3 class="property-card__title">Casa en Renta — Mexicali</h3>
+            <p class="property-card__text">Hermosa casa en zona residencial, ideal para familias. Espacios amplios, cocina integral y patio privado.</p>
+            <a href="https://wa.me/526869465458?text=Hola%20Miriam%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20esta%20propiedad%20en%20renta" target="_blank" rel="noopener noreferrer" class="btn btn--accent property-card__btn">Solicitar información</a>
+          </div>
+        </article>
+        <!-- Propiedad 2: Venta -->
+        <article class="property-card" data-reveal="fade-up" data-delay="200">
+          <div class="property-card__image">
+            <img src="./imagencasa2venta.png" alt="Casa en venta en Mexicali - Vista exterior" width="400" height="220" loading="lazy">
+            <span class="property-card__badge badge--venta">En Venta</span>
+          </div>
+          <div class="property-card__body">
+            <h3 class="property-card__title">Casa en Venta — Mexicali</h3>
+            <p class="property-card__text">Excelente oportunidad de inversión. Propiedad bien ubicada, lista para habitar con acabados de primera calidad.</p>
+            <a href="https://wa.me/526869465458?text=Hola%20Miriam%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20esta%20propiedad%20en%20venta" target="_blank" rel="noopener noreferrer" class="btn btn--accent property-card__btn">Solicitar información</a>
+          </div>
+        </article>
+        <!-- Propiedad 3: Renta -->
+        <article class="property-card" data-reveal="fade-up" data-delay="300">
+          <div class="property-card__image">
+            <img src="./Imagencasa3renta.png" alt="Casa en renta en Mexicali - Interior" width="400" height="220" loading="lazy">
+            <span class="property-card__badge badge--renta">En Renta</span>
+          </div>
+          <div class="property-card__body">
+            <h3 class="property-card__title">Casa en Renta — Mexicali</h3>
+            <p class="property-card__text">Acogedora casa con excelente iluminación natural, cerca de escuelas, centros comerciales y vías rápidas.</p>
+            <a href="https://wa.me/526869465458?text=Hola%20Miriam%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20esta%20propiedad%20en%20renta" target="_blank" rel="noopener noreferrer" class="btn btn--accent property-card__btn">Solicitar información</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 8: TESTIMONIO -->
+  <!-- ================================================================ -->
+  <section class="testimonial" id="testimonios">
+    <div class="container">
+      <div class="testimonial__card" data-reveal="fade-up">
+        <!-- SVG: decorative quote marks -->
+        <svg class="testimonial__quote" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C9A035" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+          <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+        </svg>
+        <p class="testimonial__text">"Miriam hizo todo el proceso súper fácil. Desde la valuación hasta la firma, estuvo pendiente de cada detalle. Vendí mi casa en menos de lo que esperaba y a un precio justo. Sin duda, la mejor agente de Mexicali."</p>
+        <div class="testimonial__stars" aria-label="Calificación: 5 de 5 estrellas">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#C9A035" stroke="#C9A035" stroke-width="1" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#C9A035" stroke="#C9A035" stroke-width="1" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#C9A035" stroke="#C9A035" stroke-width="1" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#C9A035" stroke="#C9A035" stroke-width="1" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#C9A035" stroke="#C9A035" stroke-width="1" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testimonial__author">
+          <strong>Carlos Mendoza</strong>
+          <span>Cliente — Venta de propiedad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 9: CTA FINAL -->
+  <!-- ================================================================ -->
+  <section class="cta-final" id="contacto">
+    <div class="container">
+      <div class="cta-final__content" data-reveal="fade-up">
+        <h2 class="cta-final__title">¿Lista para dar el siguiente paso?</h2>
+        <p class="cta-final__subtitle">Primera consulta completamente gratuita</p>
+        <div class="cta-final__actions">
+          <a href="tel:+526869465458" class="btn btn--accent btn--large cta-final__btn">
+            <!-- SVG: phone -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            Llámame ahora
+          </a>
+          <a href="https://wa.me/526869465458" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large cta-final__btn">
+            <!-- SVG: WhatsApp -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.76-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SECCIÓN 10: FOOTER -->
+  <!-- ================================================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#hero" class="footer__logo">
+            <span class="footer__logo-wrapper">
+              <img src="./logo.png" alt="Soberanes Bienes Raíces" width="100" height="34" loading="lazy">
+            </span>
+          </a>
+          <p class="footer__desc">Agente inmobiliaria certificada en Mexicali, Baja California. Compromiso, experiencia y resultados.</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Enlaces rápidos</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#propiedades">Propiedades Disponibles</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4 class="footer__heading">Contacto</h4>
+          <ul>
+            <li>
+              <a href="tel:+526869465458">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                (686) 946 5458
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/526869465458" target="_blank" rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.76-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__legal">
+          <h4 class="footer__heading">Legales</h4>
+          <ul>
+            <li>Licencia: MXL20210008</li>
+            <li>Profeco: 2860-2023</li>
+            <li>Asociada AMAI Mexicali AC</li>
+            <li>Socio Canaco</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Soberanes Bienes Raíces. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOAT BUTTON ===== -->
+  <a href="https://wa.me/526869465458" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.76-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="./script.js" defer></script>
+</body>
+</html>
